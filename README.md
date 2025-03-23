@@ -4,7 +4,7 @@ Most existing sign language interpretation solutions rely on computer vision mod
 ## Developement
 The Sign Language Interpreter Glove is a wearable device that uses an Arduino and an MPU-6050 accelerometer/gyroscope to recognize simple gestures performed by the user. Motion data is transmitted to a computer-based ESP (Example-based Sensor Prediction) model, which can be trained using machine learning to identify specific gestures.
 
-This was originally developed during Hack The North and involved a simple set-up with hardware taped to a latex glove, however, I later 3D printed a mount for the Arduino electrical components. 
+This was originally developed during Hack The North and involved a simple set-up with hardware taped to a latex glove, directly wired to my laptop, however, I later 3D printed a mount for the Arduino electrical components and implemented Bluetooth using HC-05 modules. 
 
 ## The Future
 The ESP model used for gesture recognition can only receive data from one sensor at a time and supports a maximum of 10 gestures, limiting the glove to tracking only one finger.
