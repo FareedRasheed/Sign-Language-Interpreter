@@ -12,3 +12,6 @@ To enhance functionality, a more advanced software framework is needed—one cap
 
 
 Although this prototype has limited functionality, it demonstrates the potential of physical, wearable sign language interpreters and their advantages over traditional camera-based solutions.
+
+
+ESP Model: https://github.com/damellis/ESP
